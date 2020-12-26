@@ -1,4 +1,4 @@
-# Querying Javacript AST
+# AST Tree Query
 This is a very small lib for searching nodes in a javascript AST with a very simple syntax and no other dependencies.
 
 This project was created for working on javascript AST but can also be used to work with any javascript tree-like object. 
