@@ -7,7 +7,6 @@
 // [:first] => If in an array, select the first element
 // [type=FunctionDeclaration][:first] => Select the first function declaration
 // [type=FunctionDeclaration][.body][:first] => Select the first element in the body
-
 function query (ast, query) {
     // Match every group of brackets [...]
     let regex = /\[.*?\]/g;
@@ -131,6 +130,4 @@ function query (ast, query) {
 }
 
 module.exports = query;
-
-
 
