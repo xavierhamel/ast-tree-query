@@ -1,6 +1,6 @@
 {
   "name": "ast-tree-query",
-  "version": "1.1.1",
+  "version": "1.0.2",
   "description": "Searching nodes in a javascript AST with a very simple syntax.",
   "main": "index.js",
   "keywords": [
