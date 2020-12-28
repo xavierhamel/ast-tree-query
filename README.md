@@ -60,6 +60,20 @@ const tree = [{prop:"value1"}, {prop:"value2"}];
 query(tree, "[prop=value1]"); // [{prop:"value1"}]
 ```
 
+You can also filter for multiple properties and values with the `&` to join multiple filters
+```javascript
+// ...
+const tree = [{prop:"value", prop2:"value1"}, {prop:"value", prop2:"value2"}];
+query(tree, "[prop=value & prop2=value1]"); // [{prop:"value", prop2:"value1"}]
+```
+
+You can also access a member of a property that is deeper than the current property with a `.`
+```javascript
+// ...
+const tree = [{prop:"value1", id:{name:"identifier"}}, {prop:"value2", id:{name:"identifier2"}}];
+query(tree, "[id.name=identifier2]"); // [{prop:"value2", id:{name:"identifier2"}}]
+```
+
 ### Chaining query selectors
 ```javascript
 // ...
