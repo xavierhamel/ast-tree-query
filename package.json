@@ -1,13 +1,13 @@
 {
   "name": "ast-tree-query",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Searching nodes in a javascript AST with a very simple syntax.",
   "main": "index.js",
   "keywords": [
-	"AST",
-	"tree",
-	"query",
-	"traversal"
+    "AST",
+    "tree",
+    "query",
+    "traversal"
   ],
   "scripts": {
     "test": ""
